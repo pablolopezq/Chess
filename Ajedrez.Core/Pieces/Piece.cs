@@ -6,13 +6,13 @@ namespace Ajedrez.Core.Entities
 {
     public abstract class Piece
     {
-        public string Row { get; set; }
+        public int Row { get; set; }
 
-        public string Column { get; set; }
+        public int Column { get; set; }
 
         public bool IsWhite { get; set; }
 
-        public Piece(string row, string column, bool isWhite)
+        public Piece(int row, int column, bool isWhite)
         {
             Row = row;
             Column = column;

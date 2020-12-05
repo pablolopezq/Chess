@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ajedrez.Core.Entities
 {
-    public class Pawn : Piece
+    public class Knight : Piece
     {
-        public Pawn(string row, string column, bool isWhite) : base(row, column, isWhite)
+        public Knight(int row, int column, bool isWhite) : base(row, column, isWhite)
         {
 
         }

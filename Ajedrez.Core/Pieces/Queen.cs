@@ -4,10 +4,11 @@ using System.Text;
 
 namespace Ajedrez.Core.Entities
 {
-    public class King : Piece
+    public class Queen : Piece
     {
-        public King(string row, string column, bool isWhite) : base(row, column, isWhite)
+        public Queen(int row, int column, bool isWhite) : base(row, column, isWhite)
         {
+
         }
     }
 }
