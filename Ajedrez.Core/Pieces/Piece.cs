@@ -18,5 +18,11 @@ namespace Ajedrez.Core.Entities
             Column = column;
             IsWhite = isWhite;
         }
+
+        public void Move(int row, int column)
+        {
+            this.Column = column;
+            this.Row = row;
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace Ajedrez.Core.MoveCheckers
                 PieceType.PAWN => new BishopChecker(),
                 PieceType.QUEEN => new BishopChecker(),
                 PieceType.ROOK => new BishopChecker(),
+                _ => throw new NotImplementedException(),
             };
         }
     }

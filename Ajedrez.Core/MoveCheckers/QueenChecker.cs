@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ajedrez.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,7 +7,7 @@ namespace Ajedrez.Core.MoveCheckers
 {
     public class QueenChecker : IMoveChecker
     {
-        public bool CheckMove(int row, int column)
+        public bool CheckMove(Piece piece, int row, int column)
         {
             throw new NotImplementedException();
         }
