@@ -7,7 +7,11 @@ namespace Ajedrez.Core
 {
     public class PieceFactory
     {
-        public Piece CreatePiece(PieceType pieceType, string row, string column, bool isWhite)
+        public PieceFactory()
+        {
+                
+        }
+        public Piece CreatePiece(PieceType pieceType, int row, int column, bool isWhite)
         {
             return pieceType switch
             {
